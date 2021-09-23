@@ -1,0 +1,329 @@
+html,
+body {
+  font-size: 100%;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+
+  margin: 0;
+
+}
+
+body a {
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+ul,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  margin-right: 2em;
+
+}
+
+.logo_img {
+  width: 50%;
+}
+
+.hover h6 {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.hover:hover {
+  background-color: #ff004c;
+
+}
+
+.top-menu {
+  float: left;
+  width: 40%;
+  margin-top: 3.5em;
+}
+
+
+.top-menu ul {
+  margin-top: 1em;
+}
+
+.top-menu ul li {
+  display: inline-block;
+}
+
+.top-menu ul li a {
+  margin: 1em 1.7em 1em 0em;
+  display: block;
+  color: #4a5054;
+  font-weight: 400;
+  font-size: 0.9em;
+  text-decoration: none;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+.top-menu ul li a:hover,
+.top-menu ul li.active a {
+  color: #ff004c;
+}
+
+/*----*/
+.content,
+.about-content,
+.contact-content,
+.single {
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.content-main {
+  padding-left: 0;
+  width: 60%;
+}
+
+.content-grids {
+  margin-top: 4em;
+}
+
+.post-info {
+  background: rgb(228, 228, 228);
+  padding: 2em;
+}
+
+.post-info2 {
+  background: rgb(228, 228, 228);
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.post-info h4 {
+  color: #afafaf;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.post-info h4 a {
+  font-size: 1.7em;
+  color: #ff004c;
+  margin-right: 0.7em;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.post-info h4 a:hover {
+  color: #4a5054;
+}
+
+.post-info p {
+  font-family: 'Lato', sans-serif;
+  color: #9a9da0;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+.post-info a span {
+  background: url(../images/more.png) no-repeat 0px 3px;
+  height: 18px;
+  width: 15px;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.post-info a {
+  color: #626465;
+  font-weight: 400;
+  font-size: 1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.post-info a:hover {
+  color: #ff004c;
+
+}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.content-grid-info {
+  position: relative;
+  margin-bottom: 3em;
+
+}
+
+
+/*----*/
+.footer {
+  padding: 3em 0;
+  background-color: rgb(58, 58, 58);
+}
+
+.footer p {
+  color: #989898;
+  font-size: 1em;
+}
+
+.footer p a {
+  color: #00aeff;
+}
+
+.footer p a:hover {
+  color: #989898;
+}
+
+
+
+/*----responsive-menu-start---*/
+
+@media(max-width:768px) {
+  .logo {
+    width: 29%;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .top-menu {
+    width: 60%;
+    margin-top: 1.5em;
+  }
+
+  .content-grids {
+    margin-top: 3em;
+  }
+
+  .content-main {
+    width: 100%;
+    padding: 0;
+  }
+
+  .content-grid-info img {
+    width: 100%;
+  }
+
+
+  .content-grid-info {
+    margin-bottom: 2em;
+  }
+}
+
+@media(max-width:640px) {
+
+  .top-menu ul li a {
+    margin: 0em 1.7em 1em 0em;
+  }
+
+  .post-info h4 {
+    font-size: 0.7em;
+  }
+
+  .post-info h4 a {
+    font-size: 1.7em;
+  }
+
+  .post-info {
+    padding: 1.5em;
+  }
+
+  .content-grids {
+    margin-top: 2.5em;
+  }
+
+  .post-info p {
+    font-size: 0.85em;
+  }
+
+  .post-info a {
+    font-size: 0.85em;
+  }
+
+  .post-info a span {
+    vertical-align: top;
+  }
+
+
+  .content-grid-info {
+    margin-bottom: 1.5em;
+  }
+}
+
+@media(max-width:320px) {
+  .logo {
+    width: 37%;
+    margin-right: 0.5em;
+  }
+
+  .top-menu {
+    width: 60%;
+  }
+
+  .top-menu ul {
+    margin-top: 0.5em;
+  }
+
+  .top-menu ul li a {
+    margin: 0em 0.5em 0em 0em;
+    font-size: 0.75em;
+  }
+
+
+
+  .post-info {
+    padding: 1em;
+  }
+
+  .post-info h4 a {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    margin-right: 1.7em;
+  }
+
+  .post-info p {
+    font-size: 0.77em;
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 0.5em;
+  }
+
+
+  .footer {
+    padding: 1em 0;
+  }
+
+  .footer p {
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+
+}
